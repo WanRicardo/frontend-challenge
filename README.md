@@ -16,24 +16,21 @@ publico.
 O que esperamos no projeto:
  
  - Uma página 100% responsiva para TVs, computadores, tablets e smartphones;
- - Links clicaveis (extraia o comportamento dos originais: https://www.kuadro.com.br/);
  - Esquema de cores e conteúdos iguais ao protótipo;
  - Testes unitários e/ou funcionais (apenas se optar por usar angular, reactjs ou vuejs);
  - SEO (diferencial);
  
-Exemplo:
+Protótipo:
 
 <p align="center">
   <a href="http://www.kuadro.com.br">
-      <img src="https://via.placeholder.com/500" alt="Kuadro" width="500px"/>
+      <img src="/prototipo.svg" alt="Kuadro" width="500px"/>
   </a>
 </p>
 
-**Atenção:**  Não se preocupe em reproduzir o exemplo.
+**Atenção:**  Não se preocupe em reproduzir o exemplo, use como referência.
 
-### Avaliação
-
-O que avaliaremos:
+### O que avaliaremos
 
 - Design;
 - Criatividade;
@@ -46,7 +43,7 @@ Para este desafio você deve utilizar:
 
 - HTML5;
 - CSS3;
-- Javascript;
+- Javascript (opcional);
 
 **Atenção:**  O uso de bibliotecas e/ou frameworks é livre!
 
