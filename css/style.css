@@ -1,0 +1,285 @@
+/* =============== MOBILE FIRST ============== */
+* {
+   margin: 0; 
+   padding: 0; 
+   font-size: 100%; 
+   border: none; 
+   outline: none; 
+   font-weight: 300; 
+   box-sizing: border-box; 
+   font-family: 'Merriweather Sans', sans-serif;
+}
+body {
+   background-color: #fff;
+}
+a {
+   text-decoration: none;
+   color: #fff;
+}
+a:hover {
+	color: #f7e805;
+}
+ul {
+   list-style: none;
+}
+img {
+   max-width: 100%;
+}
+/* CABEÇALHO */
+.cabecalho {
+	width: 100%; 
+	float: left; 
+	padding: 3% 4%;
+}
+.logo {
+   width: 56px; 
+   height: 56px; 
+   float: left; 
+   background: url(../img/kuadro-logo-mobile.svg) center center/56px no-repeat;
+   font-size: 0;
+}
+.btn-menu {
+   width: 56px; 
+   height: 56px; 
+   float: right; 
+   text-align: center; 
+   color: #fff; 
+   border-radius: 56px; 
+   cursor: pointer;
+   background: linear-gradient(to left, #ffa000, #f7e805);
+}
+.btn-menu-aluno {
+	display: none;
+}
+/* MENU */
+.menu {
+   display: none; 
+   width: 100%; 
+   height: 100%; 
+   position: fixed; 
+   background-color: rgba(0,128,0,0.9); 
+   top: 0; 
+   left: 0;
+}
+.btn-close {
+   font-size: 2em; 
+   color: #fff; 
+   float: right; 
+   cursor: pointer; 
+   margin: 2% 3% 0 0;
+}
+.menu ul {
+   width: 100%; 
+   float: left; 
+   text-align: center;
+}
+.menu li {
+   padding: 1.5%;
+}
+.menu li a {
+   font-size: 1.5em; 
+   color: #fff; 
+   padding: 1.5% 3%;
+}
+.menu li a:hover {
+   border: 2px solid #f7e805;
+   border-radius: 10px;
+}
+/* BANNER */
+.banner {
+	width: 100%; 
+   float: left; 
+   padding: 3% 4%;
+   text-align: left;
+   background: url(../img/background.png) fixed;
+   background-color: rgba(68,102,0,0.7);
+}
+.title {
+   width: 100%;
+}
+.title h2 {
+   font-size: 1.5em;
+   color: #fff;
+   font-family: 'Anton', sans-serif;
+}
+.title h3 {
+   color: #fff;
+   border-bottom: #fff solid 1px;
+   padding-bottom: 3%;
+   margin-top: 3%;
+}
+.title p {
+	color: #f7e805;
+	margin-top: 3%;
+	font-size: 2em;
+	text-align: center;
+	font-weight: 700;
+}
+.buttons i {
+   float: right;
+   padding-top: 2%;
+}
+.btn {
+   width: 30%;
+   font-size: 1em;
+   color: #008000;
+   text-align: center;
+   cursor: pointer;
+   padding: 1%;
+   border-radius: 7px;
+   margin-right: 1%;
+   margin-top: 3%;
+   background-color: #f7e805;
+}
+/* CURSOS */
+.cursos {
+	width: 100%; 
+   float: left; 
+   padding: 3% 4%;
+}
+.cursos h1 {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #604f4f;
+	padding-bottom: 5%;
+	font-family: 'Anton', sans-serif;
+}
+.cursos h3 {
+	text-align: left;
+	font-size: 1.2em;
+	padding-bottom: 2%;
+	padding-left: 1%;
+	color: #7f6969;
+	padding-top: 2%;
+}
+.curso {
+   width: 100%;
+   text-align: left;
+   border-radius: 7px;
+   margin-bottom: 3%;
+}
+.curso img {
+   border-radius: 7px 7px 0 0;
+}
+.inner {
+	border-radius: 0 0 7px 7px;
+	padding: 5%;
+	color: #fff;
+	padding-bottom: 8%
+}
+#med {
+	background-color: #0288d1;
+	max-width: 712px;
+	margin-top: -5px;
+}
+.inner h4 {
+	font-size: 2em;
+	font-weight: 700;
+	padding-left: 2%;
+}
+.inner p {
+	margin-top: 2%;
+}
+.inner a {
+	float: right;
+	font-weight: 300;
+	margin-top: 1%;
+}
+#dir-eng {
+	background-color: #43a047;
+	margin-top: -5px;
+	max-width: 1000px
+}
+#ita-ime {
+	background-color: #546e7a;
+	margin-top: -5px;
+	max-width: 600px;
+}
+#espcex {
+	background-color: #00796b;
+	margin-top: -5px;
+	max-width: 620px;
+}
+#afa {
+	background-color: #0097a7;
+	margin-top: -5px;
+	max-width: 600px;
+}
+/* NEWSLETTER */
+.newsletter {
+   width: 100%; 
+   float: left; 
+   padding: 3% 4%;
+   text-align: center;
+   background-color: #43a047;
+}
+.newsletter h3 {
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 2%;
+}
+.newsletter input {
+   width: 70%;
+   color: #000;
+   padding: 3%;
+   border-radius: 15px;
+}
+.newsletter button {
+   width: 25%;
+   background-color: #43a047;
+   color: #fff;
+   border: 1px solid rgb(255,255,255);
+   padding: 3%;
+   border-radius: 15px;
+   cursor: pointer;
+   margin-top: 2%;
+}
+.newsletter h2 {
+	margin-top: 2.5%;
+	font-size: 1.2em;
+	color: #fff;
+}
+/* RODAPÉ */
+.rodape {
+	width: 100%; 
+   float: left; 
+   padding: 3% 4%;
+   text-align: center;
+   background-color: #e2e2e2;
+}
+.social-icons a {
+   font-size: 1.5em;
+   margin-right: 3%;
+}
+.social-icons a .fa-facebook {
+   color: rgb(66, 103, 178);
+}
+.social-icons a .fa-twitter {
+   color: rgb(29, 161, 242);
+}
+.social-icons a .fa-youtube {
+   color: rgb(255, 0, 0);
+}
+.social-icons a .fa-instagram {
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	font-size: 1em;
+	text-align: center;
+	border-radius: 5px;
+	color: #fff;
+	vertical-align: middle;
+	background: #d6249f;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	line-height: 0.93;
+}
+.social-icons a .fa-linkedin {
+   color: rgb(0, 119, 181);
+}
+.copyright {
+	color: #666666;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}

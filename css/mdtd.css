@@ -1,0 +1,37 @@
+/* MEDIUM & LARGE DEVICES - TABLETS & DESKTOPS WIDE SCREEN */
+@media screen and (min-width: 960px) {
+   .cabecalho {
+      padding: 1% 4%;
+   }
+   .btn-menu, .btn-close {
+      display: none;
+   }
+   .btn-menu-aluno {
+      display: inline-block;
+      float: right;
+      background-color: #ffa000;
+      color: #fff;
+      font-size: 1.6em;
+      margin-top: 2%;
+      border-radius: 56px;
+      text-align: center;
+      padding: 1% 2%;
+      cursor: pointer;
+   }
+   .cursos .militar h3 {
+      margin-top: -58%;
+   }
+   .newsletter input {
+      width: 50%;
+      padding: 2%;
+   }
+   .newsletter button {
+      width: 20%;
+      font-size: 1.5em;
+      padding: 1.6%;
+   }
+   .newsletter h2 {
+      display: inline;
+      margin-right: 3%;
+   }
+}

@@ -1,0 +1,10 @@
+/* SMALL DEVICES - SMARTPHONES */
+@media screen and (min-width: 480px) {
+   .logo {
+      width: 214px; 
+      background: url(../img/logo-kuadro.svg) center center/214px no-repeat;
+   }
+   .btn {
+      font-size: 1em;
+   }
+}
